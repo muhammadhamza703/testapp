@@ -10,8 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "react": "18.0.0",
     "react-native": "0.69.1",
+    "react-native-axios": "^0.17.1",
     "react-native-paper": "^4.12.2",
     "react-native-vector-icons": "^9.2.0"
   },
