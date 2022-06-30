@@ -21,10 +21,10 @@ const Search = () => {
     // })
     axios.get('https://autocomplete.wunderground.com/aq?query='+text)
     .then((response)=> {
-        console.log(response);
+        console.log("response",response);
     })
     .catch((error)=> {
-        console.log(error.response);
+        console.log("error",error.response);
     });
 
   }
